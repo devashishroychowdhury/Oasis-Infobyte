@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Exo+2:wght@500&family=IBM+Plex+Sans:wght@300&family=Inconsolata:wght@500&family=Montserrat:wght@500&family=Noto+Sans:wght@300&family=PT+Sans&family=Poppins&family=Quicksand:wght@500&family=Raleway:wght@300;400&family=Roboto+Condensed:wght@300&family=Sofia+Sans+Condensed&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Exo+2:wght@500&family=IBM+Plex+Sans:wght@300&family=Inconsolata:wght@500&family=Montserrat:wght@500&family=Noto+Sans:wght@300&family=PT+Sans&family=Phudu&family=Poppins:wght@300;400&family=Quicksand:wght@500&family=Raleway:wght@300;400&family=Roboto+Condensed:wght@300&family=Sofia+Sans+Condensed&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Exo+2:wght@500&family=IBM+Plex+Sans:wght@300&family=Inconsolata:wght@500&family=Inter:wght@300&family=Montserrat:wght@500&family=Noto+Sans:wght@300&family=PT+Sans&family=Phudu&family=Poppins:wght@300;400&family=Quicksand:wght@500&family=Raleway:wght@300;400&family=Roboto+Condensed:wght@300&family=Sofia+Sans+Condensed&family=Ubuntu&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.content{
+    background: url('./images/Blue\ Night\ Girl\ Cartoon\ Desktop\ Wallpaper.png');
+    height: 100vh;
+    margin: 40px 30px 0px 30px; 
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Inconsolata', monospace;
+}
+
+.content .nav{
+    display: flex;
+    justify-content: space-between;
+    width: 94vw;
+    background: black;
+    padding: 20px;
+}
+
+.content .nav h2{
+    display: flex;
+    gap: 10px;
+}
+
+.content .nav p{
+    font-size: small;
+}
+
+#language{
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    gap: 30px;
+}
+
+.banner #bottom{
+    text-transform: uppercase;
+}
+
+button{
+    border-radius: 30px;
+    padding: 10px;
+    font-family: 'Inconsolata', monospace;
+    font-size: large;
+    cursor: pointer;
+}
+
+button:hover{
+    width: 450px;
+    border: 2px solid grey;
+    background-color: black;
+    transition: ease-out;
+    transition-delay: 1s;
+    color : white;
+}
+button:hover ::before{
+    content: 'GetExpressVPN';
+    font-size: 20px;
+    color: white;
+    margin:10px;
+    font-family: 'Montserrat', sans-serif;
+    /* transition-delay: 1s; */
+
+}
+
+button:hover ::after{
+    /* content:url('material-symbols-outlined'); */
+    color: white;
+}
+
+.banner button{
+    padding: 15px 20px;
+}
+
+button span{
+    margin: 2px;
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+    margin: 10px 23px;
+    height: 300px;
+}
+
+.features img{
+    height: 250px;
+    width: 300px;
+    margin: 20px;
+}
+
+
+.features h1{
+    margin: 50px 0px 0px 40px;
+}
+
+#card{
+    display: flex;
+}
+.description{
+    font-family: 'Barlow', sans-serif;
+}
+
+
+.description p{
+    margin: 0px 40px 0px 40px;
+}
+
+.description button{
+    margin: 20px 40px;
+}
+
+.extra{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+
+.link{
+    margin: 80px;
+    text-align: center;
+}
+
+.link a{
+    font-family: 'Exo 2', sans-serif;
+}
+
+.info{
+    background-color: rgb(231, 231, 231);
+    margin: 30px;
+}
+
+.info hr{
+    margin: 0px 80px;
+}
+
+.extra-info{
+    font-family: 'Barlow', sans-serif;
+}
+.extra-info h2{
+    padding: 10px;
+}
+.extra-info p{
+    padding: 10px;
+}
+
+.extra-info img{
+    height: 200px;
+    border-radius: 100px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer section{
+    margin: 30px;
+}
